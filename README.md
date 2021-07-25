@@ -7,3 +7,5 @@ You can find me on [github](https://github.com/xuechou)
 https://github.com/xuechou/interpreter
 
 https://github.com/xuechou/notes
+
+[demo](./demo.md)
