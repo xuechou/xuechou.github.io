@@ -1,9 +1,11 @@
 # gcc
 
 ## gcc直接生成可执行文件，最简单用法
+
 gcc hello.c -o hello
 
 ## gcc分步骤使用
+
 gcc -E hello.c -o hello.i   #预处理
 
     gcc -S hello.i -o hello.s   #编译
@@ -14,6 +16,7 @@ gcc -E hello.c -o hello.i   #预处理
 
 
 ## 常用的选项
+
 TODO:
 - 添加头文件
 - 添加源文件
