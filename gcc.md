@@ -85,6 +85,9 @@ ojbdump将`重定位文件`与`可执行文件`反汇编得到汇编代码。重
 
 `objdump -d hello > hello.s`    #也可以利用-d选项 --disassemble
 
+<details>
+<summary>code</summary>
+
 ```bash
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ objdump -d helloWorld
 
@@ -265,6 +268,7 @@ Disassembly of section .fini:
     11f4:       c3                      retq
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ```
+</details>
 
 **-S选项 混合显示C代码和汇编作为对照**
 
@@ -275,6 +279,9 @@ t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ### 打印符号表
 
 `objdump -t a.out`
+
+<details>
+<summary>code</summary>
 
 ```bash
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ objdump -t helloWorld
@@ -350,10 +357,14 @@ SYMBOL TABLE:
 
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ```
+</details>
 
 ## readelf
 
 > 显示一个目标文件的完整结构，包括ELF头中编码的所有信息。包括SIZE和NM的功能。
+
+<details>
+<summary>code</summary>
 
 ```bash
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ readelf helloWorld -all
@@ -655,6 +666,8 @@ Displaying notes found in: .note.ABI-tag
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ```
 
+</details>
+
 ## ar
 
 > 创建静态库，插入，删除，列出和提取成员。—— CSAPP
@@ -662,6 +675,9 @@ t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ## strings
 
 > 列出一个目标文件中所有可打印的字符串。
+
+<details>
+<summary>code</summary>
 
 ```bash
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ strings helloWorld
@@ -738,14 +754,35 @@ __cxa_finalize@@GLIBC_2.2.5
 .comment
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ```
+</details>
 
 ## strip
 
 > 从目标文件中删除符号表信息。
 
+<details>
+<summary>code</summary>
+
+```bash
+t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ strip helloWorld
+t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ objdump -t helloWorld
+
+helloWorld:     file format elf64-x86-64
+
+SYMBOL TABLE:
+no symbols
+
+
+t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
+```
+</details>
+
 ## ldd
 
 > 列出可执行文件在运行时所需的共享库。
+
+<details>
+<summary>code</summary>
 
 ```bash
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ ldd helloWorld
@@ -754,3 +791,4 @@ t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$ ldd helloWorld
         /lib64/ld-linux-x86-64.so.2 (0x00007f986ce56000)
 t@DESKTOP-NVJJKJO:~/githubCode/xuechou.github.io$
 ```
+</details>

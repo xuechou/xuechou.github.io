@@ -99,3 +99,15 @@ term
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+## 代码折叠
+
+<details>
+<summary>code</summary>
+
+```c
+#include <stdio.h>
+void main(void)
+```
+
+</details>
