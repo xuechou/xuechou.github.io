@@ -102,10 +102,9 @@ term
 
 ## 代码折叠
 
-<details>
-<summary>code</summary>
+<details><summary>Click me to expand</summary>
 
-```c
+```
 #include <stdio.h>
 void main(void)
 ```
