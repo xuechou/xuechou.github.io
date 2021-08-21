@@ -102,11 +102,13 @@ term
 
 ## 代码折叠
 
-<details><summary>Click me to expand</summary><p>
+<details><summary>Click me</summary>
 
 ```c
 #include <stdio.h>
 void main(void)
+{
+	//this a comment.
+}
 ```
-
-</p></details>
+</details>
