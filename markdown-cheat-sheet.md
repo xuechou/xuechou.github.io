@@ -102,11 +102,11 @@ term
 
 ## 代码折叠
 
-<details><summary>Click me to expand</summary>
+<details><summary>Click me to expand</summary><p>
 
-```
+```c
 #include <stdio.h>
 void main(void)
 ```
 
-</details>
+</p></details>
