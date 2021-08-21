@@ -5,8 +5,8 @@ I'm a self-taught programming engineer,and I was inspired by the website [teachy
 You can find me on [github](https://github.com/xuechou)
 
 
-- [gcc ref](./gcc.md)
-- [gdb ref](./gdb.md)
-- [git ref](./git.md)
-- [markdown ref](./markdown-cheat-sheet.md)
+- [gcc](./gcc.md)
+- [gdb](./gdb.md)
+- [git](./git.md)
+- [markdown](./markdown-cheat-sheet.md)
 - [rtos](./rtos/index.md)
