@@ -1,3 +1,8 @@
+**参考**
+
+https://wizardforcel.gitbooks.io/100-gdb-tips/content/index.html
+
+
 # gdb基本使用
 
 step1:启动gdb的两种方法
@@ -68,3 +73,8 @@ p everything
 **设置命令行参数**
 
 `set args arg1 arg2`
+
+
+**查看断点**
+
+`info breakpoints`
