@@ -10,3 +10,8 @@ You can find me on [github](https://github.com/xuechou)
 - [git](./git.md)
 - [markdown](./markdown-cheat-sheet.md)
 - [rtos](./rtos/index.md)
+
+**reference**
+
+https://www.algorist.com/algorist.html
+
