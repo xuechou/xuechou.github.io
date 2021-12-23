@@ -4,7 +4,7 @@ https://about.gitlab.com/images/press/git-cheat-sheet.pdf
 
 ## 5个位置
 
-Stash <-->  Workspace <--> Index <--> Local Repository <--> Upstream Repository
+`Stash` <-->  `Workspace` <--> `Index` <--> `Local Repository` <--> `Upstream Repository`
 
 ## 01 安装git后的第一次配置
 
@@ -21,38 +21,38 @@ url = git@github.com:xuechou/interpreter.git
 
 **递归克隆仓库，针对包含sub-module的仓库**
 
-git clone --recurse-submodules *url*
+- git clone --recurse-submodules *url*
 
 
 ## 03 日常工作,使用的最多
 
 **检查已修改内容**
 
-git status
+- git status
 
 **撤销所有修改，回到HEAD版本,并且删除untracked file,此方法可以保证workspace clean**
 
-git reset --hard HEAD
-git clean -df -x ./
+- git reset --hard HEAD
+- git clean -df -x ./
 
 **新增提交**
 
-git add *
-git commit -m "balabala"
+- git add *
+- git commit -m "balabala"
 
 **删除提交中的某个文件**
 
-git restore --staged *someFile*
+- git restore --staged *someFile*
 
 **追加提交,或者修改当前提交的Log**
 
-git commit --amend
+- git commit --amend
 
 ## 04 分支模型
 
 **列出所有分支**
 
-git branch -a
+- git branch -a
 
 ## 05 查看日志
 
