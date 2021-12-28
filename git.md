@@ -74,4 +74,19 @@ url = git@github.com:xuechou/interpreter.git
 
 - `git push origin master:master`
 
+## 10 添加子模块——submudule
+
+**在已有的仓库中添加子模块**，初始化配置仓库，只用一次
+
+- git submodule add *url*
+
+**克隆包含子模块的仓库**
+
+- git clone --recurse-submodules *url* *set_path_for_summodule*
+
+**更新仓库中的子模块的步骤**
+
+- git submodule update --remote   `拉取子模块的更新到本地仓库，还需要提交一次才能在远程仓库生效`
+- git status; git add *; git commit -m "xx"; git push;
+
 ## FAQ
