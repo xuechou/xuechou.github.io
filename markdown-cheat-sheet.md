@@ -100,7 +100,7 @@ term
 - [ ] Update the website
 - [ ] Contact the media
 
-## 代码折叠
+## 折叠代码
 
 <details>
   <summary>展开代码</summary>
@@ -113,6 +113,7 @@ void main(void)
 	//this a comment.
 }
 ```
+
   </code></pre>
 </details>
 
