@@ -1,0 +1,7 @@
+- [gcc]](./gcc.md)
+- [nm]](./nm.md)
+- [strip]](./strip.md)
+- [strings]](./gcc.md)
+- [objdump]](./objdump.md)
+- [readelf]](./readelf.md)
+- [ldd]](./ldd.md)

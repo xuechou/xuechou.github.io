@@ -5,7 +5,7 @@ I'm a self-taught programming engineer,and I was inspired by the website [teachy
 You can find me on [github](https://github.com/xuechou)
 
 - [script](./script/index.md)
-- [gcc](./gcc.md)
+- [gcc](./gcc/index.md)
 - [gdb](./gdb.md)
 - [git](./git.md)
 - [markdown](./markdown-cheat-sheet.md)
