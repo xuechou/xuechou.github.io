@@ -102,7 +102,9 @@ term
 
 ## 代码折叠
 
-<details><summary>Click me</summary>
+<details>
+  <summary>展开代码</summary>
+  <pre><code>
 
 ```c
 #include <stdio.h>
@@ -111,4 +113,6 @@ void main(void)
 	//this a comment.
 }
 ```
+  </code></pre>
 </details>
+
