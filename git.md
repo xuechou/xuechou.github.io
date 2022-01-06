@@ -89,4 +89,14 @@ url = git@github.com:xuechou/interpreter.git
 - git submodule update --remote   `拉取子模块的更新到本地仓库，还需要提交一次才能在远程仓库生效`
 - git status; git add *; git commit -m "xx"; git push;
 
+**保持workspace clean，包括子模块**
+
+```
+git clean -xfd
+git submodule foreach --recursive git clean -xfd
+git reset --hard
+git submodule foreach --recursive git reset --hard
+git submodule update --init --recursive
+```
+
 ## FAQ
