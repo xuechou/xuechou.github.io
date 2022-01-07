@@ -96,6 +96,12 @@ url = git@github.com:xuechou/interpreter.git
 - 切换到子模块的目录；
 - 如果是clean的，直接`git pull`
 
+**想查看某个子模块更改啥?**
+
+直接`git status`只能看到submodule这个文件变成`dirty`; 
+
+得切换到submodule队友的目录下，然后`git status`
+
 **如何保持workspace clean，包括子模块也是clean?**
 
 ```git
