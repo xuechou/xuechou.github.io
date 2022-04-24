@@ -111,5 +111,10 @@ git reset --hard
 git submodule foreach --recursive git reset --hard
 git submodule update --init --recursive
 ```
+**在包含子模块的仓库中，如何推送子模块的更改**
+
+- 开始用的是笨办法——同时打开`主仓库`(内涵若干子模块)和`子模块仓库`，然后将更改手动合并到子模块仓库，最后提交；
+- 避免重复劳动的方法——直接在`主仓库`中，提交和推送修改的子模块；
+    - **可能遇到的问题和解决办法**
 
 ## FAQ
