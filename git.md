@@ -113,7 +113,7 @@ git submodule update --init --recursive
 ```
 **在如何推送子模块的更改?——在包含子模块的仓库中，**
 
-假设存在仓库A和B，并且仓库A中使用submodule来引用仓库B。
+假设存在仓库A和B，并且仓库A中使用submodule来引用仓库B。![pic](./git.submodule.demo.png)
 
 - **思路**——直接在`主仓库A`中，先push所有的子模块，最后再推送主仓库A；
 
