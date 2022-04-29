@@ -113,9 +113,11 @@ git submodule update --init --recursive
 ```
 **在如何推送子模块的更改?——在包含子模块的仓库中，**
 
-假设存在仓库A和B，并且仓库A中使用submodule来引用仓库B。![pic](./git.submodule.demo.png)
+假设存在仓库A和B，并且仓库A中使用submodule来引用仓库B。
 
-- **思路**——直接在`主仓库A`中，先push所有的子模块，最后再推送主仓库A；
+![pic](./git.submodule.demo.png)
+
+- **思路**——直接在主仓库A中，先push所有的子模块B，最后推送主仓库A；
 
     - 在主仓库中，切换到子模块的路径，这时候`git status`是可以看到当前分支，且**不是**处于游离状态；
     - 然后就是三步:`git add *; git commit -m "balabals ..."; git push origin master:master;`
