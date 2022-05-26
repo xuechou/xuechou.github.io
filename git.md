@@ -75,7 +75,7 @@ url = git@github.com:xuechou/interpreter.git
 
 若`git rebase`后提示*error: cannot rebase: You have unstaged changes.*
 
-- 按照提示，直接`git stash`将不需要提交的更改暂存到**stash**，并在需要的时候`git stash apply`再从**stash**取出.
+- 按照提示，直接`git stash`将不需要提交的更改暂存到**stash**，并在需要的时候`git stash apply`再从**stash**取出
 
 ## 10 仓库中引用另一个仓库——git子模块，submudule
 
