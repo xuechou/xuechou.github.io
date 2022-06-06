@@ -6,3 +6,4 @@
 - [objdump](./objdump.md)
 - [readelf](./readelf.md)
 - [ldd](./ldd.md)
+- [size](./size.md)
