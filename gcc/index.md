@@ -7,3 +7,4 @@
 - [readelf](./readelf.md)
 - [ldd](./ldd.md)
 - [size](./size.md)
+- [symbolTable](./symbolTable.md)
