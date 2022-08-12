@@ -6,7 +6,7 @@
 
 `debug symbol` : *A debug symbol is a special kind of symbol that attaches additional information to the symbol table of an object file.*
 
-So, the debug symbol is within the symbol table.
+So, debug symbol is entry in the symbol table.
 
 ## view symbol table
 
@@ -24,8 +24,12 @@ SYMBOL TABLE:
 000000000000037c l    d  .note.ABI-tag  0000000000000000              .note.ABI-tag
 ...
 ...
+# no .debug*** in symbol table, if build with `gcc hello.c`
+tt@xxx:~$ objdump -t a.out | grep debug
+tt@xxx:~$
 ```
-## view debug symbols
+
+## view debug symbols, build with gcc -g ***
 
 **grep .debug in symbol table**
 
