@@ -8,7 +8,7 @@ e.g., the total ram and rom usage in a.o and b.o ?
 
 `size -t a.o b.o`
 
-- -t means totoals;
+- `-t` means totoals;
 - talk more about **output format**
     - default ouput format is `Berkeley`;
         - .rodata section is in .text section;
