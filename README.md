@@ -9,6 +9,7 @@ You can find me on [github](https://github.com/xuechou)
 - [gdb](./gdb.md)
 - [gdb init script](./gdb.init.script.md)
 - [git](./git.md)
+- [bash](./bash.md)
 - [markdown](./markdown-cheat-sheet.md)
 
 **reference**
