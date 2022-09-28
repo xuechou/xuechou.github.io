@@ -4,13 +4,15 @@ I'm a self-taught programming engineer,and I was inspired by the website [teachy
 
 You can find me on [github](https://github.com/xuechou)
 
-- [scripts](./script/index.md)
 - [gcc](./gcc/index.md)
 - [gdb](./gdb.md)
 - [gdb init script](./gdb.init.script.md)
 - [git](./git.md)
 - [bash](./bash.md)
 - [markdown](./markdown-cheat-sheet.md)
+- [scripts](./script/index.md)
+- [class method, class attribute and static method](./script/specialMethodsInPython.md) python OOP
+- [@property](./script/propertyPython.md) python OOP
 
 **reference**
 
