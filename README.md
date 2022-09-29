@@ -14,6 +14,7 @@ You can find me on [github](https://github.com/xuechou)
 - [class method, class attribute and static method](./script/specialMethodsInPython.md) python OOP
 - [@property](./script/propertyPython.md) python OOP
 - [operator overloading in python](./script/DunderMethods.md) python OOP
+- [Terminology in Math](./TermInMath.md)
 
 **reference**
 
