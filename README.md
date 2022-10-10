@@ -13,6 +13,7 @@ You can find me on [github](https://github.com/xuechou)
 - [scripts](./script/index.md)
 - [class method, class attribute and static method](./script/specialMethodsInPython.md) python OOP
 - [@property](./script/propertyPython.md) python OOP
+- [meta programming in Python](./doc/metaProgramming.md)
 - [operator overloading in python](./script/DunderMethods.md) python OOP
 - [Terminology in Math](./TermInMath.md)
 - [filter packets by application](./wireshark.filter.md) wireshark
