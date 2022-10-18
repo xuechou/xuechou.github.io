@@ -36,6 +36,8 @@ if __name__ == '__main__':
 
 推荐用`requests`，而不是标准库的`urllib`.
 
+## pip install
+
 ```bash
 pip3 install requests beautifulsoup4
 ```
@@ -58,7 +60,7 @@ def parseHTML(page_url):
     try:
         r.raise_for_status()
     except requests.exceptions.HTTPError as err:
-        SystemError(err)
+        SystemError(err) # standard librayry function
 
     bs = bs4.BeautifulSoup(r.text, 'html.parser')
     for tag in bs.find_all(href=re.compile(r'http://downloads.bbc.co.uk/')):
@@ -203,12 +205,12 @@ class parseAndDownload():
 if __name__ == '__main__':
     # TODO: download mp3 from unit1 to unit30
     download_threads = []
-    for unit in range(5, 10):
+    for unit in range(1, 31):
         ''' replace download_page_url to yours '''
         download_page_url = "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-{}/downloads".format(
             unit)
         a = parseAndDownload(download_page_url)
-        # create new thread
+        # create a new thread
         thread = threading.Thread(target=a.run())
         download_threads.append(thread)
         thread.start()
@@ -222,7 +224,7 @@ if __name__ == '__main__':
 
 ### no multi-thread at all
 
-TODO:  why use threading.Thread(), but just like signle-thread ???
+**TODO:  why use threading.Thread(), but just like single-thread ???**
 
 ## version 5: Actor model - a more clear multi-thread programming model
 
