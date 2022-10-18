@@ -37,8 +37,7 @@ if __name__ == '__main__':
 推荐用`requests`，而不是标准库的`urllib`.
 
 ```bash
-pip3 install requests
-
+pip3 install requests beautifulsoup4
 ```
 
 ### defect
