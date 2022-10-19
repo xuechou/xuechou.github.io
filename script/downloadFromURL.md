@@ -231,7 +231,8 @@ if __name__ == '__main__':
 
 ### http.client.RemoteDisconnected: Remote end closed connection without response
 
-TODO:
+- 下载文件的过程，经常因为网络问题导致http disconnect问题;
+- 想到的解决办法是： 直接打印url,再导入下载软件中;
 
 ## version 5: Actor model - a more clear multi-thread programming model
 
