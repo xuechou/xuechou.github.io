@@ -189,7 +189,10 @@ class parseAndDownload():
 
     def _download_from_url(self, file_url):
         print('start downloading from ' + file_url)
-        r = requests.get(file_url)  # HTTP get method
+        # TODO: add headers to avoid remote disconnect
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0'}
+        r = requests.get(file_url, headers=headers)  # HTTP get method
         try:
             r.raise_for_status()  # raise an Error, if make a bad request(e.g, 404 error)
         except requests.exceptions.HTTPError as err:
@@ -226,9 +229,14 @@ if __name__ == '__main__':
 
 **TODO:  why use threading.Thread(), but just like single-thread ???**
 
+### http.client.RemoteDisconnected: Remote end closed connection without response
+
+TODO:
+
 ## version 5: Actor model - a more clear multi-thread programming model
 
 TODO:
+
 
 ## ref
 
