@@ -1,3 +1,4 @@
 - [重复执行命令，直到成功](./repetDo.md)
 - [自动编译，解决没有证书导致编译失败](./RepeatDoInWin10.md)
 - [download all mp3 files from one URL](./downloadFromURL.md)
+- [merge pdf](./mergePDF.md) python
