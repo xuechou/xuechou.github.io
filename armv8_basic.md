@@ -56,4 +56,8 @@ if we devide cache into m set, and 1 set = k cache line, so call it `k-way set a
 
 ![image](https://user-images.githubusercontent.com/10084724/202137939-9015e502-84c9-42ea-bd55-92df8b51ee64.png)
 
+### exception vector table
+
+![image](https://user-images.githubusercontent.com/10084724/202140804-113c2859-dc7a-4b86-a773-0ac0d4999a8e.png)
+
 
