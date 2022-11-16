@@ -50,4 +50,10 @@ if we devide cache into m set, and 1 set = k cache line, so call it `k-way set a
 
 ![image](https://user-images.githubusercontent.com/10084724/202108758-dbfd071e-3625-4f00-b157-b4aca3b01219.png)
 
+## exception
+
+### exception types
+
+![image](https://user-images.githubusercontent.com/10084724/202137939-9015e502-84c9-42ea-bd55-92df8b51ee64.png)
+
 
