@@ -25,9 +25,16 @@
 
 ### 3 levels cache
 
+- L1 cache has 2 types : data cache and instruction cache;
+- L1 cache is inside core, every core has data cache and instruction cache;
+- L2 cache is shared by all cores in same cluster, and only have 1 type : unified cache;
+- L3 cache is shared by all cluster, and only have 1 type : unified cache;
+
 ![image](https://user-images.githubusercontent.com/10084724/202107354-708bd0ba-40e4-468d-ad3e-54bdeca43806.png)
 
 ###  Cache terminology
+
+if we devide cache into m set, and 1 set = k cache line, so call it `k-way set associative`.
 
 ![image](https://user-images.githubusercontent.com/10084724/202107485-df0ed001-2154-4540-80d5-f48502390630.png)
 
