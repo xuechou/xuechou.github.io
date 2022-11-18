@@ -60,4 +60,12 @@ if we devide cache into m set, and 1 set = k cache line, so call it `k-way set a
 
 ![image](https://user-images.githubusercontent.com/10084724/202140804-113c2859-dc7a-4b86-a773-0ac0d4999a8e.png)
 
+## GIC
+
+![image](https://user-images.githubusercontent.com/10084724/202635723-ec661713-d727-45d9-8b47-fa5bf792b814.png)
+
+### interrupt state machine
+
+![image](https://user-images.githubusercontent.com/10084724/202636007-fbe5012c-ed52-4633-b61e-d154209fff48.png)
+
 
