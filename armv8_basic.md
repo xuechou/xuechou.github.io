@@ -58,7 +58,7 @@ if we devide cache into m set, and 1 set = k cache line, so call it `k-way set a
 
 ### exception vector table
 
-![image](https://user-images.githubusercontent.com/10084724/202140804-113c2859-dc7a-4b86-a773-0ac0d4999a8e.png)
+![image](https://user-images.githubusercontent.com/10084724/202944101-cec261fc-b747-4c49-8fc0-d8160029f25a.png)
 
 ## GIC
 
