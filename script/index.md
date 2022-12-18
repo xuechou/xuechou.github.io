@@ -2,3 +2,4 @@
 - [自动编译，解决没有证书导致编译失败](./RepeatDoInWin10.md)
 - [download all mp3 files from one URL](./downloadFromURL.md)
 - [merge pdf](./mergePDF.md) python
+- [统计多个mp3的总播放时长](./mp3_duration.md)
