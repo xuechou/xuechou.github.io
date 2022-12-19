@@ -31,11 +31,12 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ### MTU VS MSS
 
-- maximum transmission unit (MTU): 链路层帧载荷的最大值
+- maximum transmission unit (MTU): **链路层帧载荷**的最大值
   - MTU of ethernet is 1500 bytes, and max size of ethernet > 1500 bytes;
-- maximum segment size (MSS): TCP载荷的最大值
+- maximum segment size (MSS): **TCP载荷**的最大值
   - MSS = MTU - IP_header - TCP_header
-
+  - 典型值 1460 byte
+  - 
 ![image](https://user-images.githubusercontent.com/10084724/208341065-a18d50e1-07e4-4784-bdd2-7f6e4c9a7c46.png)
 
 image from https://www.imperva.com/learn/application-security/what-is-mtu-mss/
