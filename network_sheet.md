@@ -29,9 +29,11 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ### 超时重传 VS 快速重传
 
+TODO:
+
 ### MTU VS MSS
 
-- maximum transmission unit (MTU): **链路层帧载荷**的最大值
+- maximum transmission unit (MTU): **链路层帧载荷**的最大值,是由于硬件限制
   - MTU of ethernet is 1500 bytes, and max size of ethernet > 1500 bytes;
 - maximum segment size (MSS): **TCP载荷**的最大值
   - MSS = MTU - IP_header - TCP_header
@@ -48,4 +50,5 @@ image from https://www.imperva.com/learn/application-security/what-is-mtu-mss/
 ```bash
 tt@xxx:~$ ifconfig
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+...
 ```
