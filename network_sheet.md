@@ -37,9 +37,12 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
   - MSS = MTU - IP_header - TCP_header
 
 ![image](https://user-images.githubusercontent.com/10084724/208341065-a18d50e1-07e4-4784-bdd2-7f6e4c9a7c46.png)
+
 image from https://www.imperva.com/learn/application-security/what-is-mtu-mss/
 
 ![image](https://user-images.githubusercontent.com/10084724/208340788-80116c87-ae1a-4aea-a18a-eff9d8acafb8.png)
+
+####  check MTU in linux
 
 ```bash
 tt@xxx:~$ ifconfig
