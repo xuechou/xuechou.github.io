@@ -23,6 +23,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 ```
 - 如果目的IP落在**Destination** + **Genmask** 表示的子网范围内，就用**Iface**表示的网卡，把packet转发到**Gatemask**
 - 如果**Gateway=0.0.0.0**，表示无需gateway，属于同一个子网，packet可以直接转发给目标IP；
+  - Windows路由表中gateway如果是**On-link**，同样表示是同一个子网，不需要gateway
 - 如果**Destination=0.0.0.0**，表示目标IP如果不适用其它路由规则，则使用该条；
   - 该条所描述的Gateway就是默认网关，不属于同一个子网，并且路由表中所有其它表项都不满足，则使用default Gateway进行转发；
 
