@@ -2,7 +2,8 @@
 
 ## route table
 
-Print route table in linux : `route` or `netstat -rn`
+- Print route table in linux : `route` or `netstat -rn`
+- Print route table in windows : `route PRINT` or `netstat -rn`
 
 ```bash
 tt@xxx:~$ route
