@@ -28,3 +28,7 @@ while True:
             time.time()-startTime))
         sys.exit(0)
 ```
+
+## 缺点：无法打印编译过程中的error和warnning
+
+原因是amk.exe自身不支持打印编译中的错误信息，并不是subprocess.run()的问题。
