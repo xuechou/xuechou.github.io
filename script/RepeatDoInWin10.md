@@ -44,3 +44,7 @@ while True:
 # -G : change directory
 ```
 
+再加上while循环
+```powershell
+while(& 'C:\Program Files (x86)\TASKING\TriCore v6.2r2\ctc\bin\amk.exe' -G 'C:\project_path\Debug' -j16 all){}
+```
