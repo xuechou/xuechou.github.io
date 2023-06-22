@@ -78,6 +78,17 @@ url = git@github.com:xuechou/interpreter.git
 - 按照提示，直接`git stash`将不需要提交的更改暂存到**stash**，并在需要的时候`git stash apply`再从**stash**取出
     - `git stash` <---> `git stash apply`
 
+## 09 一个文件夹同时检出多个分支——git worktree
+
+我思考下面的目录结构是简洁的
+
+```
+- repo_name\
+    - main_branch\
+    - dev_branch\
+    - temp_branch\
+```
+
 ## 10 仓库中引用另一个仓库——git子模块，submudule
 
 **怎么给仓库中添加一个新的submodule?**
@@ -127,5 +138,6 @@ git submodule update --init --recursive
     - 然后就是三步:`git add *; git commit -m "balabals ..."; git push origin master:master;`
     - 最后，所有子模块的改动都推送后，最后推送主模块A；
 
+**TODO: git subtree对git submodule是更好的替代吗？**
 
 ## FAQ
