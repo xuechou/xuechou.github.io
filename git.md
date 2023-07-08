@@ -89,6 +89,12 @@ url = git@github.com:xuechou/interpreter.git
     - temp_branch\
 ```
 
+### 工作中常见的工作流,worktree能改善的地方
+
+1：需要同步到远程仓库，worktree可以多分支都是已经编译的状态，避免切换分支
+2：只存档于本地，不需要同步到远程仓库，worktree可添加detached branch
+
+
 ## 10 仓库中引用另一个仓库——git子模块，submudule
 
 **怎么给仓库中添加一个新的submodule?**
@@ -139,5 +145,15 @@ git submodule update --init --recursive
     - 最后，所有子模块的改动都推送后，最后推送主模块A；
 
 **TODO: git subtree对git submodule是更好的替代吗？**
+
+## 11 git bash example
+
+- start **vscode** in current directory: `code .`
+- start **explorer** in current directory: `explorer .`
+- start **calculator**: `calc`
+- switch to powershell: `powershell`
+- switch to cmd:`cmd`
+- return from powershell/cmd:`bash`
+- create zip file:`git archive -o ../latest.zip HEAD ` 注意:只会对git管理的文件进行压缩
 
 ## FAQ

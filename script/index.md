@@ -3,3 +3,4 @@
 - [download all mp3 files from one URL](./downloadFromURL.md)
 - [merge pdf](./mergePDF.md) python
 - [统计多个mp3的总播放时长](./mp3_duration.md)
+- [“二进制文件”转“C风格数组”](./binary2array.py)
