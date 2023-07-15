@@ -33,7 +33,7 @@ Business English
 - [Terminology in Math](./TermInMath.md)
   
 chat-GPT prompt
-- Bala Bala... Can you edit these paragraphs above and check grammar?
+- Bala Bala... Can you edit these paragraphs above and check the grammar?
 - What was edited?
 
 
