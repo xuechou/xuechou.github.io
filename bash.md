@@ -13,5 +13,5 @@ find ./ -iname *.elf
 grep -nR main
 
 # or set search path
-grep -nR 'main (' ../
+grep -nR 'main' ../
 ```

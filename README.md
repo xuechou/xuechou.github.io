@@ -36,8 +36,8 @@ chat-GPT prompt
 - Bala Bala... Can you edit these paragraphs above and check the grammar?
 - What was edited?
 
-
+Kali linux
+-[wifi detect](./wifi_detect.md)
 **reference**
 
 https://www.algorist.com/algorist.html
-
