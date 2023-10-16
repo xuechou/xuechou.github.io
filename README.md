@@ -37,7 +37,9 @@ chat-GPT prompt
 - What was edited?
 
 Kali linux
--[wifi detect](./wifi_detect.md)
+- [wifi detect](./wifi_detect.md)
+- [pywifi](./wifi.py)
+
 **reference**
 
 https://www.algorist.com/algorist.html

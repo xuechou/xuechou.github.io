@@ -46,4 +46,12 @@ phone number generator https://github.com/asaotomo/makephonedict
 
 Reboot the Kali linux
 
+### hashcat
+
+```
+hiprtcCompileProgram is missing from HIPRTC shared library.
+```
+可以用，但是不知道用的是GPU，还是CPU?
+
+
 ## Useful Resources
