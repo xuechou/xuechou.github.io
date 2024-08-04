@@ -40,6 +40,10 @@ Kali Linux
 - [Wi-Fi detection](./wifi_detect.md)
 - [PyWi-Fi](./wifi.py)
 
+Command Line tools
+
+https://ohmyposh.dev/
+
 **reference**
 
 https://www.algorist.com/algorist.html
