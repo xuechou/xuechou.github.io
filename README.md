@@ -36,9 +36,9 @@ chat-GPT prompt
 - Bala Bala... Can you edit these paragraphs above and check the grammar?
 - What was edited?
 
-Kali linux
-- [wifi detect](./wifi_detect.md)
-- [pywifi](./wifi.py)
+Kali Linux
+- [Wi-Fi detection](./wifi_detect.md)
+- [PyWi-Fi](./wifi.py)
 
 **reference**
 

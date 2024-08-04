@@ -16,22 +16,25 @@ def make_dict(total, city, isp):
     # print("prefix:{}, suffix:{}, prefixInfo:{}",prefix,suffix,prefixInfo)
     
     no = 0
-    with open("phone_number_dict.txt", "w+", encoding="UTF-8") as f:
+    store_file_name = "phone_number_dict_{}.txt".format(city)
+    with open(store_file_name, "w+", encoding="UTF-8") as f:
         for i in range(len(prefix)):
             for n in range(len(suffix)):
                 phoneNum = prefix[i] + suffix[n]
                 info = "{}\n".format(phoneNum)
                 f.write(info)
                 no += 1
-    print("phone_number_dict.txt contains {}".format(no))
+    print(store_file_name + "contains {}".format(no))
 
 
 if __name__ == '__main__':
     try:
-        total = 10000000000
-        city = input("nanjin: 3201, wuhan: 4201, shanghai: 3101 其他城市代码见城市区域代码查询表,同时生成多城市请用,分割):\n")
+        total = 1000000000
+        # citys = ['3201','3202','3203','3204','3205','3206','3207','3208','3209','3210','3211','3212','3213']
+        citys = ['3401','3402','3403','3404','3405','3406','3407','3408','3409','3410','3411','3412','3413','3414','3415','3416','3416','3418']
         isp = "4001,4006,4008"
-        make_dict(total, city, isp)
+        for city in citys:
+            make_dict(total, city, isp)
     except Exception as e:
         print(e)
 
